@@ -2,17 +2,17 @@
 
 ![Build and Deploy](https://github.com/tobilola/patient-health-dashboard/actions/workflows/deploy.yml/badge.svg)
 
-A modern, responsive healthcare dashboard built with React, Vite, Tailwind CSS, and Firebase Firestore for tracking health metrics, medications, and lab results. **Features automated CI/CD pipeline with testing and deployment.**
+A modern, responsive healthcare dashboard built with React, Vite, Tailwind CSS, and Firebase Firestore for tracking health metrics, medications, and lab results. Features automated CI/CD pipeline with testing and deployment.
 
-## 🚀 CI/CD Pipeline
+## CI/CD Pipeline
 
 This project includes a complete CI/CD pipeline using GitHub Actions that:
 
-- ✅ **Automated Testing** - Runs test suite on every push
-- ✅ **Code Quality Checks** - ESLint validation for code standards
-- ✅ **Automated Builds** - Compiles and verifies production build
-- ✅ **Continuous Deployment** - Auto-deploys to Netlify on merge to main
-- ✅ **Build Status Badge** - Real-time pipeline status visibility
+- Automated Testing - Runs test suite on every push
+- Code Quality Checks - ESLint validation for code standards
+- Automated Builds - Compiles and verifies production build
+- Continuous Deployment - Auto-deploys to Netlify on merge to main
+- Build Status Badge - Real-time pipeline status visibility
 
 ### Pipeline Workflow
 
@@ -117,14 +117,14 @@ npm run test
 ### Automated Checks
 
 Every push triggers:
-1. **Dependency Installation** - Ensures clean environment
-2. **Linting** - ESLint checks code quality
-3. **Testing** - Vitest runs test suite
-4. **Build Verification** - Confirms production build succeeds
+1. Dependency Installation - Ensures clean environment
+2. Linting - ESLint checks code quality
+3. Testing - Vitest runs test suite
+4. Build Verification - Confirms production build succeeds
 
 ### Deployment
 
-On merge to `main`:
+On merge to main:
 - Automated deployment to Netlify
 - Environment variables injected securely
 - Build artifacts uploaded
@@ -132,14 +132,14 @@ On merge to `main`:
 ### Secrets Required
 
 Add these to GitHub repository secrets:
-- `VITE_FIREBASE_API_KEY`
-- `VITE_FIREBASE_AUTH_DOMAIN`
-- `VITE_FIREBASE_PROJECT_ID`
-- `VITE_FIREBASE_STORAGE_BUCKET`
-- `VITE_FIREBASE_MESSAGING_SENDER_ID`
-- `VITE_FIREBASE_APP_ID`
-- `NETLIFY_AUTH_TOKEN` (for auto-deploy)
-- `NETLIFY_SITE_ID` (for auto-deploy)
+- VITE_FIREBASE_API_KEY
+- VITE_FIREBASE_AUTH_DOMAIN
+- VITE_FIREBASE_PROJECT_ID
+- VITE_FIREBASE_STORAGE_BUCKET
+- VITE_FIREBASE_MESSAGING_SENDER_ID
+- VITE_FIREBASE_APP_ID
+- NETLIFY_AUTH_TOKEN (for auto-deploy)
+- NETLIFY_SITE_ID (for auto-deploy)
 
 ## Deployment
 
@@ -147,19 +147,19 @@ Add these to GitHub repository secrets:
 
 ```bash
 npm run build
-# Drag and drop `dist` folder to netlify.app/drop
+# Drag and drop dist folder to netlify.app/drop
 ```
 
 ### Automated Deployment
 
-Push to `main` branch triggers automatic deployment via GitHub Actions.
+Push to main branch triggers automatic deployment via GitHub Actions.
 
 ## Firebase Setup
 
 1. Create Firebase project
 2. Enable Firestore Database (test mode)
 3. Get configuration from Project Settings
-4. Add credentials to `.env` file
+4. Add credentials to .env file
 
 ## Future Enhancements
 
@@ -177,7 +177,7 @@ MIT License
 
 ## Author
 
-**Tobilola Ogunbowale**  
+Tobilola Ogunbowale  
 Digital Health Solutions Engineer
 
 - Email: hello@tobiogunbowale.com
